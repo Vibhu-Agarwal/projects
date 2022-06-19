@@ -35,15 +35,6 @@ Edit [src/data/projects.js](src/data/projects.js) to customize the projects that
 That file contains a simple JavaScript JSON Object so it should be very easy to get started.
 
 
-## Libraries Used
-
-```sh
-React
-React-Router
-Redux
-GeoPattern
-```
-
 ## Deployment
 
 Run `yarn build` to generate bundle files with all the dependencies.
@@ -52,8 +43,6 @@ Then use the `deploy.sh` script to deploy them to `gh-pages` branch.
 
 
 ## Resources
-
-This is my first React project. I was only able to complete it because of these resources.
 
 * `[React]` [Build with React Interactive Tutorial](http://buildwithreact.com/tutorial)
 * `[React]` [Official React Docs](https://facebook.github.io/react/docs/hello-world.html)
@@ -67,20 +56,3 @@ This is my first React project. I was only able to complete it because of these 
 * `[Setup]` [Resolve jsx extension in Webpack](https://stackoverflow.com/questions/34678314/)
 * `[Setup]` [Using preact](https://preactjs.com/guide/switching-to-preact)
 * `[Redux]` [Redux Official Intro](http://redux.js.org/)
-
-
-## Contributing
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines. 😉
-
-
-## Screenshots
-
-#### Home page Filter
-
-![search](https://i.imgur.com/i9tn6ox.png)
-
-#### Project Detail Page
-
-![detail](https://i.imgur.com/8jrgCQk.png)
-
