@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import GeoPattern from 'geopattern'
 
 import Search from '../../components/Search/Search'
@@ -37,22 +37,22 @@ export default class App extends Component {
 		}
 		// use internal state
 		let st = store.getState();
-		if (st.search !== undefined && st.search){
+		if (st.search !== undefined && st.search) {
 			lib.setSearch(st.search);
 			return; // let setState handle scroll
 		}
 		// scroll state
-		if (st.yOffset !== undefined){
+		if (st.yOffset !== undefined) {
 			window.scrollTo(0, st.yOffset);
 		}
 		// clear state
-		store.dispatch({type: 'CLEAR'});
+		store.dispatch({ type: 'CLEAR' });
 	}
 
 	/*
 	 * sets a random color to header text
 	 */
-	setHeaderColor(){
+	setHeaderColor() {
 		let str = Date.now().toString();
 		let pattern = GeoPattern.generate(str, {
 			baseColor: '#8e354b'
@@ -70,33 +70,33 @@ export default class App extends Component {
 			lib.focusSearch();
 			// set scroll
 			let st = store.getState();
-			if (st.yOffset !== undefined){
+			if (st.yOffset !== undefined) {
 				window.scrollTo(0, st.yOffset);
 			}
-			store.dispatch({type: 'CLEAR'});
+			store.dispatch({ type: 'CLEAR' });
 		});
 	}
 
 	render() {
 		let projectDOM = this.state.projects.map((p) =>
-			<Project key={p.id} {...p}/>
+			<Project key={p.id} {...p} />
 		);
 		// empty list of projects
-		if (projectDOM.length === 0){
+		if (projectDOM.length === 0) {
 			projectDOM = (<div className={styles.noResults}>No results found</div>);
 		}
 		return (
 			<div className={styles.app}>
 				<header className={styles.headerDiv}>
-					<Header/>
-					<Search changeHandler={this.inputChange}/>
+					<Header />
+					<Search changeHandler={this.inputChange} />
 				</header>
 				<div className={styles.content}>
 					{projectDOM}
 				</div>
 				<footer className={styles.footerDiv}>
 					<div>
-						Vibhu's <a href="https://vibhu-agarwal.github.io/static/Vibhu_Resume_2022.pdf" target="_blank">resume</a>
+						Vibhu's <a href="https://vibhu-agarwal.github.io/static/Vibhu_Resume_2025.pdf" target="_blank">resume</a>
 						<span className={styles.horizSpace}>&middot;</span>
 						Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" target="_blank">Dave Gandy</a>
 					</div>
