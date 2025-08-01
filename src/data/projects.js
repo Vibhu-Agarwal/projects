@@ -4,6 +4,23 @@
 
 let projects = [
 	{
+		id: "fixture-scout-ai",
+		name: "Fixture Scout AI ⚽🤖",
+		desc: [
+			"AI-powered microservice platform for personalized football match reminders, built with modular Python FastAPI services on Google Cloud Run.",
+			"Lets users specify football match interests in natural language, which are optimized using LLMs (Google Vertex AI Gemini) for precise match selection.",
+			"Fetches real-world football fixtures daily, analyzes them with user preferences and feedback, and generates personalized reminders with custom messages and optimal timing.",
+			"Features: LLM-powered prompt optimization, extensible data source and notification architecture, modular microservices, Firestore DB, Pub/Sub, and React + Firebase Auth frontend.",
+			"Designed for extensibility: easy integration of new data sources, LLMs, and notification providers via clean interfaces. Includes feedback learning loop for continuous improvement.",
+			"Open source, cloud-native, and production-ready for football fans who never want to miss a match that matters!",
+		],
+		date: "2025-25",
+		github: "https://github.com/Vibhu-Agarwal/fixture-scout-ai",
+		websites: ["https://fixture-scout-ai.web.app/"],
+		weight: 2,
+		tags: ["ai", "llm", "vertex-ai", "microservices", "cloud", "cloud-run", "fastapi", "react", "firebase", "gcp", "pubsub", "firestore"],
+	},
+	{
 		id: "quick-pdf",
 		name: "quick-pdf",
 		desc: [
