@@ -7,7 +7,8 @@ let projects = [
 		id: "fixture-scout-ai",
 		name: "Fixture Scout AI ⚽🤖",
 		desc: [
-			"AI-powered microservice platform for personalized football match reminders, built with modular Python FastAPI services on Google Cloud Run.",
+			"AI-powered platform for personalized football match reminders.",
+			"Built with modular Python FastAPI microservices on Google Cloud Run.",
 			"Lets users specify football match interests in natural language, which are optimized using LLMs (Google Vertex AI Gemini) for precise match selection.",
 			"Fetches real-world football fixtures daily, analyzes them with user preferences and feedback, and generates personalized reminders with custom messages and optimal timing.",
 			"Features: LLM-powered prompt optimization, extensible data source and notification architecture, modular microservices, Firestore DB, Pub/Sub, and React + Firebase Auth frontend.",
@@ -18,11 +19,11 @@ let projects = [
 		github: "https://github.com/Vibhu-Agarwal/fixture-scout-ai",
 		websites: ["https://fixture-scout-ai.web.app/"],
 		weight: 2,
-		tags: ["ai", "llm", "vertex-ai", "microservices", "cloud", "cloud-run", "fastapi", "react", "firebase", "gcp", "pubsub", "firestore"],
+		tags: ["ai", "llm", "vertex-ai", "cloud", "cloud-run", "fastapi", "firebase", "gcp", "pubsub", "firestore"],
 	},
 	{
 		id: "quick-pdf",
-		name: "quick-pdf",
+		name: "quick-pdf 📄",
 		desc: [
 			"CLI for quick PDF handling 📄",
 			"Features: 1) Merging PDF in a given folder",
@@ -49,7 +50,7 @@ let projects = [
 	},
 	{
 		id: "Hostel-Adda",
-		name: "Hostel-Adda",
+		name: "Hostel-Adda 🏨",
 		desc: [
 			"A cross-platform mobile app to simplify the life of hostellers.",
 			"The app has a plethora of features, few of them being: managing local-area tasks like laundry, making bulk orders among various hostellers, notices broadcasting and dedicated chatting.",
@@ -69,7 +70,7 @@ let projects = [
 	},
 	{
 		id: "single-sign-on",
-		name: "Single-Sign-On",
+		name: "Single-Sign-On 🔐",
 		desc: [
 			"A server implementation to centralize authorization and authentication in your architecture.",
 			"Single-Sign-On (SSO) allows users to authenticate with a single ID and password to any of several related, yet independent, software systems.",
@@ -85,7 +86,7 @@ let projects = [
 	},
 	{
 		id: "Binge-o-Philia",
-		name: "Binge-o-Philia",
+		name: "Binge-o-Philia 🎬",
 		desc: [
 			"A full-fledged social networking platform developed for movie enthusiasts",
 			"An app to keep the movie-buffs connected, updated and well managed of their time, activities and data",
@@ -103,7 +104,7 @@ let projects = [
 	},
 	{
 		id: "notification-server",
-		name: "Notification-Server",
+		name: "Notification-Server 🔔",
 		desc: [
 			"A server to make HTTP requests at a particular time with a database-backed work queue",
 			"This project aims to be a very easy-to-use server to schedule HTTP request-APIs (for GET, POST, PATCH etc.) in future.",
@@ -120,7 +121,7 @@ let projects = [
 	},
 	{
 		id: "el-clasico",
-		name: "El Clásico",
+		name: "El Clásico ⚽",
 		desc: [
 			"A simple score-keeper-app made in React Native",
 			"The app can keep up the score of the game providing the features of counting goals, shots, shots on target, \
@@ -136,7 +137,7 @@ let projects = [
 	},
 	{
 		id: "av-helper",
-		name: "av-helper",
+		name: "av-helper 🎵🎥",
 		desc: [
 			"An Audio-Video Helper Utility Package in Python",
 			"Convert video-format file to audio-format file",
@@ -150,7 +151,7 @@ let projects = [
 	},
 	{
 		id: "entry-management-app",
-		name: "Entry Management App",
+		name: "Entry Management App 📝",
 		desc: [
 			"A web application for an organization to manage entry records of visitors",
 			"Entry Management App is a web application that can be used at entry-points at several places, \
@@ -167,7 +168,7 @@ let projects = [
 	},
 	{
 		id: "hit-me-news",
-		name: "Hit-Me-News",
+		name: "Hit-Me-News 📰🗣️",
 		desc: [
 			"An Alexa Skill which keeps you updated about the latest headlines",
 			"Provides dynamic content (latest news). News Headlines are categorical, based on data from user-interaction.",
@@ -181,7 +182,7 @@ let projects = [
 	},
 	{
 		id: "mospi",
-		name: "MOSPI-website",
+		name: "MOSPI-website 📊",
 		desc: [
 			"Website for Ministry of Statistics and Programme Implementation (MOSPI)",
 			"Developed at Grand Finale of Smart India Hackathon 2019",
@@ -194,7 +195,7 @@ let projects = [
 	},
 	{
 		id: "guess-them-avengers",
-		name: "Guess Them Avengers",
+		name: "Guess Them Avengers 🦸‍♂️",
 		desc: ["An Alexa Skill based around quizzing Marvel's Avengers"],
 		date: "2019-19",
 		github: "https://github.com/Vibhu-Agarwal/guess-Them-Avengers/",
@@ -203,7 +204,7 @@ let projects = [
 	},
 	{
 		id: "interactive-resume",
-		name: "Interactive Resume on CLI",
+		name: "Interactive Resume on CLI 💻",
 		desc: [
 			"My Interactive Resume made command-line up",
 			"Proper Highlighting by using bold/italics with appropriate colors.",
@@ -217,7 +218,7 @@ let projects = [
 	},
 	{
 		id: "amfr",
-		name: "Attendance Management through Face Recognition",
+		name: "Attendance Management through Face Recognition 🧑‍🎓📸",
 		desc: [
 			"A python based Desktop App to manage Attendance in an Institute",
 			"Real Time Face Detection and Recognition.",
@@ -234,7 +235,7 @@ let projects = [
 	},
 	{
 		id: "marauders-website",
-		name: "Marauders-Website",
+		name: "Marauders-Website 🕵️‍♂️",
 		desc: [
 			"A Website made for Marauders, an organization.",
 			"Python Microframework, Flask powered Website using SQL as database.",
@@ -249,7 +250,7 @@ let projects = [
 	},
 	{
 		id: "potter-spells",
-		name: "potter-spells",
+		name: "potter-spells ✨",
 		desc: [
 			"A python package to list all Harry Potter spells.",
 			"Specifically, the scripts scrape the data from the website harrypotter.wikia.com and and provides all the spells.",
@@ -264,7 +265,7 @@ let projects = [
 	},
 	{
 		id: "automate-fb-posting",
-		name: "Automated Facebook Posting via Speech to Text",
+		name: "Automated Facebook Posting via Speech to Text 🗣️📱",
 		desc: [
 			"A python script to post on Facebook",
 			"Speech to Text using wit.ai API",
@@ -278,7 +279,7 @@ let projects = [
 	},
 	{
 		id: "score-keeper-app",
-		name: "El-Clasico",
+		name: "El-Clasico ⚽",
 		desc: [
 			"An Android App to help record the score of a Football Match.",
 			"The app can keep up the score of the game providing the features of counting goals, shots, shots on target, \
@@ -295,7 +296,7 @@ let projects = [
 	},
 	{
 		id: "automated-draw-ms-paint",
-		name: "Automated Draw in MS-Paint",
+		name: "Automated Draw in MS-Paint 🎨",
 		desc: [
 			"Using GUI Automation, opens MS-paint and draws mentioned words using brushes or pencils.",
 		],
@@ -306,7 +307,7 @@ let projects = [
 	},
 	{
 		id: "gesture-based-gui-controller",
-		name: "Gesture Recognition GUI-Controller",
+		name: "Gesture Recognition GUI-Controller ✋🖥️",
 		desc: [
 			"A project which recongizes gestures and performs certain GUI operations.",
 		],
@@ -318,7 +319,7 @@ let projects = [
 	},
 	{
 		id: "codechef",
-		name: "Codechef-Problems-Solved",
+		name: "Codechef-Problems-Solved 👨‍🍳",
 		desc: [
 			"Just enter the username, and get the problems solved by the user on codechef.",
 			"Also, you can view all submissions for a problem by that user in your Google Chrome tab: \
@@ -331,7 +332,7 @@ let projects = [
 	},
 	{
 		id: "uttt",
-		name: "Ultimate Tic-Tac-Toe",
+		name: "Ultimate Tic-Tac-Toe ❌⭕",
 		desc: [
 			"Highly modified version of ordinary tic-tac-toe game",
 			"A Desktop App made in Java",
@@ -347,7 +348,7 @@ let projects = [
 	},
 	{
 		id: "imdb-rating",
-		name: "IMDB-Rating",
+		name: "IMDB-Rating ⭐🎬",
 		desc: [
 			"Type in the movie name and the script displays the rating and duration of the movie.",
 			"Scrapes the official IMDB Website and get the information dynamically.",
@@ -359,7 +360,7 @@ let projects = [
 	},
 	{
 		id: "memory-game",
-		name: "Memory Game",
+		name: "Memory Game 🧠🎲",
 		desc: ["A Classic 3x3 Memory Game (Desktop App) using Grid Layout in Java"],
 		date: "2017-17",
 		github: "https://github.com/Vibhu-Agarwal/Memory-Game",
