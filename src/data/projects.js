@@ -4,6 +4,21 @@
 
 let projects = [
 	{
+		id: "vibhu-llm",
+		name: "vibhu-llm 🧠",
+		desc: [
+			"A PyTorch-based library for training and generating text using a Large Language Model (LLM).",
+			"It provides a from-scratch implementation of a decoder-only transformer model.",
+			"The library is designed to be clear, understandable, and trainable on custom datasets.",
+			"It includes functionalities for model configuration, data loading, training, and text generation.",
+		],
+		date: "2025-25",
+		github: "https://github.com/Vibhu-Agarwal/LLM",
+		websites: ["https://pypi.org/project/vibhu-llm/"],
+		weight: 2,
+		tags: ["pytorch", "gpt", "llm", "pypi", "python"],
+	},
+	{
 		id: "fixture-scout-ai",
 		name: "Fixture Scout AI ⚽🤖",
 		desc: [
