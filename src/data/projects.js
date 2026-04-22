@@ -4,6 +4,23 @@
 
 let projects = [
 	{
+		id: "hitori-gym",
+		name: "Hitori Gym 🧩",
+		desc: [
+			"A Gymnasium environment for the Japanese puzzle game Hitori.",
+			"Specifically designed to train Maskable Reinforcement Learning agents (like MaskablePPO).",
+			"Leverages a dynamic action mask to prevent illegal moves and dramatically simplify the learning process.",
+			"Hitori is a logic puzzle where the goal is to shade cells according to three rules: no duplicates in unshaded cells, no adjacent shaded cells, and all unshaded cells must be connected.",
+			"The environment provides an action mask on every step, allowing agents to see only valid moves and making learning dramatically more efficient.",
+			"Features: dynamic action masking, puzzle generator, backtracking solver, and support for custom grid sizes.",
+		],
+		date: "2025-25",
+		github: "https://github.com/Vibhu-Agarwal/hitori-gym",
+		websites: ["https://pypi.org/project/hitori-gym/"],
+		weight: 2,
+		tags: ["reinforcement-learning", "gymnasium", "python", "pypi", "puzzle", "rl", "maskable-ppo"],
+	},
+	{
 		id: "vibhu-llm",
 		name: "vibhu-llm 🧠",
 		desc: [
